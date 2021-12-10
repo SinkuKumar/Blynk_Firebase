@@ -26,7 +26,7 @@
 - Locate setup file and Install Arduino IDE
 ![Arduino_IDE_Setup](https://raw.githubusercontent.com/SinkuKumar/Blynk_Firebase/main/Assets/Arduino_IDE_Setup.png "Arduino_IDE_Setup")
 
-- Accept the license terms by clicking "I Agree"
+- Accept the license terms by clicking "I Agree"<br>
 ![Arduino_IDE_License](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/Arduino_IDE_License.png "Arduino_IDE_License")
 
 - Make sure every component is selected and click "Next >"
