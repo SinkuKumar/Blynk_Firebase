@@ -67,5 +67,5 @@ Starting with 1.6.4, Arduino allows installation of third-party platform package
 ![Arduino_IDE_ESP8266_Board_Selection](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/Arduino_IDE_ESP8266_Board_Selection.png "Arduino_IDE_ESP8266_Board_Selection")
 
 ### 3. Introduction to ESP8266 and GPIO pins
-
+![node-mcu_pin-out](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/node-mcu_pin-out.jpg "node-mcu_pin-out")
 
