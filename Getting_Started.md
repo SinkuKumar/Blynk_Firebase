@@ -21,6 +21,8 @@
 - Visit [Software | Arduino](https://www.arduino.cc/en/software) and download the latest Arduino IDE suitable for your Operating System(OS).
 ![Arduino_IDE_Download.png](https://raw.githubusercontent.com/SinkuKumar/Blynk_Firebase/main/Assets/Arduino_IDE_Download.png "Arduino_IDE_Download")
 
+- __Note:__ Avoid Installing Experimental Software i.e. Arduino IDE 2.0 beta.
+
 - Locate setup file and Install Arduino IDE
 ![Arduino_IDE_Setup](https://raw.githubusercontent.com/SinkuKumar/Blynk_Firebase/main/Assets/Arduino_IDE_Setup.png "Arduino_IDE_Setup")
 
@@ -36,10 +38,9 @@
 - While installation OS may ask for permission. Tick Always trust software from "Arduino LLC" and click on install button.
 ![Arduino_IDE_Driver](https://raw.githubusercontent.com/SinkuKumar/Blynk_Firebase/main/Assets/Arduino_IDE_Driver.png "Arduino_IDE_Driver")
 
-- Click on "Close"
+- To exit out of installation wizard, click on "Close"<br>
 ![Arduino_IDE_Completed](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/Arduino_IDE_Completed.png "Arduino_IDE_Completed") 
-
-- __Note:__ Avoid Installing Experimental Software i.e. Arduino IDE 2.0 beta. 
+ 
 
 ### 2. Install the ESP8266 board support package in Arduino IDE
 ### Installing with Boards Manager
