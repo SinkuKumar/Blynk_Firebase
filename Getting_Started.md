@@ -48,6 +48,24 @@ Starting with 1.6.4, Arduino allows installation of third-party platform package
 
 - Install the current upstream Arduino IDE at the 1.8.9 level or later. The current version is on the [Arduino website](https://www.arduino.cc/en/main/software).
 - Start Arduino and open the Preferences window.
+![Arduino_IDE_File_Menu](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/Arduino_IDE_File_Menu.png "Arduino_IDE_File_Menu")
+
 - Enter ```https://arduino.esp8266.com/stable/package_esp8266com_index.json``` into the *File>Preferences>Additional Boards Manager URLs* field of the Arduino IDE. You can add multiple URLs, separating them with commas.
-- Open Boards Manager from Tools > Board menu and install *esp8266* platform (and don't forget to select your ESP8266 board from Tools > Board menu after installation).
+![Arduino_IDE_Preferences](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/Arduino_IDE_Preferences.png "Arduino_IDE_Preferences")
+- Click on "OK"
+  
+- Open Boards Manager from Tools > Board menu
+![Arduino_IDE_Tools_Board_Menu](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/Arduino_IDE_Tools_Board_Menu.png "Arduino_IDE_Tools_Board_Menu")
+
+- and install *esp8266* platform 
+![Arduino_IDE_Tools_Board_Manager](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/Arduino_IDE_Tools_Board_Manager.png "Arduino_IDE_Tools_Board_Manager")
+
+- once esp8266 board support is installed click on "Close"
+![Arduino_IDE_Tools_ESP8266_Installation_Done](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/Arduino_IDE_Tools_ESP8266_Installation_Done.png "Arduino_IDE_Tools_ESP8266_Installation_Done")
+
+- (and don't forget to select your ESP8266 board from Tools > Board menu after installation).
+![Arduino_IDE_ESP8266_Board_Selection](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/Arduino_IDE_ESP8266_Board_Selection.png "Arduino_IDE_ESP8266_Board_Selection")
+
+### 3. Introduction to ESP8266 and GPIO pins
+
 
