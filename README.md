@@ -26,3 +26,6 @@ Installation and Setup Guide [Click here](https://github.com/SinkuKumar/Blynk_Fi
 
 ## 7. LDR Serial
 [Source Code](https://github.com/SinkuKumar/Blynk_Firebase/blob/main/7_LDR_Serial/7_LDR_Serial.ino)
+
+## 8. LDR LED
+[Source Code](https://github.com/SinkuKumar/Blynk_Firebase/blob/main/8_LDR_LED/8_LDR_LED.ino)
