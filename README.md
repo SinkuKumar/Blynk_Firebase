@@ -20,3 +20,6 @@ Installation and Setup Guide [Click here](https://github.com/SinkuKumar/Blynk_Fi
 
 ## 5. Buzzer
 [Source Code](https://github.com/SinkuKumar/Blynk_Firebase/blob/main/5_Buzzer/5_Buzzer.ino)
+
+## 6. Toogle Switch Relay
+[Source Code](https://github.com/SinkuKumar/Blynk_Firebase/blob/main/6_Toggle_Switch_Relay/6_Toggle_Switch_Relay.ino)
