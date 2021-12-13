@@ -29,3 +29,6 @@ Installation and Setup Guide [Click here](https://github.com/SinkuKumar/Blynk_Fi
 
 ## 8. LDR LED
 [Source Code](https://github.com/SinkuKumar/Blynk_Firebase/blob/main/8_LDR_LED/8_LDR_LED.ino)
+
+## 9. Bluetooth Multi
+[Source Code](https://github.com/SinkuKumar/Blynk_Firebase/tree/main/9_Bluetooth_Multi)
