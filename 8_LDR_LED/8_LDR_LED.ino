@@ -1,5 +1,5 @@
 #define LDR 0
-#define LED 2
+#define LED 15
 
 void setup() {
   pinMode(LDR, INPUT);
