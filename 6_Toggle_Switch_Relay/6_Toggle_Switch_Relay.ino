@@ -7,9 +7,9 @@ void setup() {
 }
 
 void loop() {
-  if(buttonPin == HIGH){
-    digitalWrite(relay, HIGH);
+  if(digitalRead(buttonPin) == HIGH){
+    digitalWrite(relay, LOW);
     delay(1000);
     }
-  digitalWrite(relay, LOW);
+  digitalWrite(relay, HIGH);
 }
