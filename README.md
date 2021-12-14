@@ -47,6 +47,6 @@ Install DHT11 Library in Arduino IDE<br>
 ## 12. Blynk Relay
 [Source Code](https://github.com/SinkuKumar/Blynk_Firebase/blob/main/12_Blynk_Relay/12_Blynk_Relay.ino)
 
-## 12. Blynk DHT11
+## 13. Blynk DHT11
 [Source Code](https://github.com/SinkuKumar/Blynk_Firebase/blob/main/13_Blink_DHT11/13_Blink_DHT11.ino)
 
