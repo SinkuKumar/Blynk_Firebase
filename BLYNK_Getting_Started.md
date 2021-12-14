@@ -2,7 +2,6 @@
 
 ## Create an Account on Blynk
 
-
 ### Go to Blynk Website
 [blynk.cc](https://blynk.io/)
 ![Blynk Google](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/Blynk/Screenshot%20(85).png)
@@ -37,6 +36,11 @@
 ### Install Blynk Library in Arduino IDE
 ![Start Free](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/Blynk/Screenshot%20(95).png)
 
+### Go To Sketch --> Include Libraries --> Manage Libraries
+![Start Free](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/Blynk/Screenshot%20(99).png)
+
+### Install Blynk Library by Volodymyr Shymanskyy
+![Start Free](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/Blynk/Screenshot%20(101).png)
 
 ### Copy Template Code
 ![Start Free](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/Blynk/Screenshot%20(96).png)
@@ -53,4 +57,5 @@
 ## Install Blynk IoT Android/iOS App on your phone
 [Blynk App](https://play.google.com/store/apps/details?id=cloud.blynk&hl=en_IN&gl=US)
 ![Start Free](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/Assets/Blynk/Screenshot%20(98).png)
+
 

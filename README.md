@@ -32,3 +32,14 @@ Installation and Setup Guide [Click here](https://github.com/SinkuKumar/Blynk_Fi
 
 ## 9. Bluetooth Multi
 [Source Code](https://github.com/SinkuKumar/Blynk_Firebase/blob/main/9_Bluetooth_Multi/9_Bluetooth_Multi.ino)
+
+# Day - 2
+## 10. DHT11 Serial
+Install DHT11 Library
+[Source Code]()
+
+## Blynk Getting Started
+[Getting Started](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/BLYNK_Getting_Started.md)
+## 11. Blink Template
+[Source Code]()
+
