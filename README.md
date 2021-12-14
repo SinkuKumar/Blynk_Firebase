@@ -59,5 +59,5 @@ Install DHT11 Library in Arduino IDE<br>
 ## 16. Firebase DHT11
 [Source Code](https://github.com/SinkuKumar/Blynk_Firebase/blob/main/BIT_Firebase_DHT/BIT_Firebase_DHT.ino)
 
-## 17. Firebase Multi
+## 17. Blynk Multi
 [Source Code](https://github.com/SinkuKumar/Blynk_Firebase/blob/main/Blynk_Multi/Blynk_Multi.ino)
