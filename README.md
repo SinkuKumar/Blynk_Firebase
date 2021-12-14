@@ -35,8 +35,8 @@ Installation and Setup Guide [Click here](https://github.com/SinkuKumar/Blynk_Fi
 
 # Day - 2
 ## 10. DHT11 Serial
-Install DHT11 Library
-[Source Code]()
+Install DHT11 Library in Arduino IDE<br>
+[Source Code](https://github.com/SinkuKumar/Blynk_Firebase/blob/main/10_DHT_Serial/10_DHT_Serial.ino)
 
 ## Blynk Getting Started
 [Getting Started](https://github.com/SinkuKumar/Blynk_Firebase/raw/main/BLYNK_Getting_Started.md)
