@@ -56,7 +56,7 @@ Install DHT11 Library in Arduino IDE<br>
 ## 15. Firebase DHT11
 [Source Code](https://github.com/SinkuKumar/Blynk_Firebase/blob/main/BIT_Firebase_DHT/BIT_Firebase_DHT.ino)
 
-## 16. Firebase Basic
+## 16. Firebase Basic (Chat app feature)
 [Source Code](https://github.com/SinkuKumar/Blynk_Firebase/blob/main/BIT_Firebase_Basic/BIT_Firebase_Basic.ino)
 
 ## 17. Blynk Multi
