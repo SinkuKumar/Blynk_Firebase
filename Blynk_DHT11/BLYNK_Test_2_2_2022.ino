@@ -1,0 +1,112 @@
+/*************************************************************
+
+  This is a simple demo of sending and receiving some data.
+  Be sure to check out other examples!
+ *************************************************************/
+
+// Template ID, Device Name and Auth Token are provided by the Blynk.Cloud
+// See the Device Info tab, or Template settings
+#define BLYNK_TEMPLATE_ID "TMPLc9jVIOPm"
+#define BLYNK_DEVICE_NAME "Temperature and Humidity"
+#define BLYNK_AUTH_TOKEN "D7DrgTFS90bum8cn9py4-Nrs20F--B4C"
+
+
+// Comment this out to disable prints and save space
+#define BLYNK_PRINT Serial
+
+////////////////////////////////
+#define DHTPIN 2  
+////////////////////////////////
+
+
+#include <ESP8266WiFi.h>
+#include <BlynkSimpleEsp8266.h>
+////////////////////////////////
+#include <Adafruit_Sensor.h>
+#include <DHT.h>
+#include <DHT_U.h>
+////////////////////////////////
+char auth[] = BLYNK_AUTH_TOKEN;
+
+///////////////////////////////
+#define DHTTYPE    DHT11 
+///////////////////////////////
+
+// Your WiFi credentials.
+// Set password to "" for open networks.
+char ssid[] = "WiFi";
+char pass[] = "Password";
+
+///////////////////////////////
+
+DHT_Unified dht(DHTPIN, DHTTYPE);
+
+uint32_t delayMS;
+///////////////////////////////
+
+
+BlynkTimer timer;
+
+// This function is called every time the Virtual Pin 0 state changes
+
+// This function is called every time the device is connected to the Blynk.Cloud
+BLYNK_CONNECTED()
+{
+  
+}
+
+// This function sends Arduino's uptime every second to Virtual Pin 2.
+void myTimerEvent()
+{
+  // Delay between measurements.
+  // delay(delayMS);
+  sensors_event_t event;
+  // Get temperature event and print its value.
+  dht.temperature().getEvent(&event);
+  if (isnan(event.temperature)) {
+    Serial.println(F("Error reading temperature!"));
+  }
+  else {
+    Serial.print(F("Temperature: "));
+    Serial.print(event.temperature);
+    Serial.println(F("°C"));
+    Blynk.virtualWrite(V0, event.temperature);
+  }
+  // Get humidity event and print its value.
+  dht.humidity().getEvent(&event);
+  if (isnan(event.relative_humidity)) {
+    Serial.println(F("Error reading humidity!"));
+  }
+  else {
+    Serial.print(F("Humidity: "));
+    Serial.print(event.relative_humidity);
+    Serial.println(F("%"));
+    Blynk.virtualWrite(V1, event.relative_humidity);
+  }
+  delay(1000);
+}
+
+void setup()
+{
+  // Debug console
+  Serial.begin(115200);
+  dht.begin();
+  Blynk.begin(auth, ssid, pass);
+  sensor_t sensor;
+  // You can also specify server:
+  //Blynk.begin(auth, ssid, pass, "blynk.cloud", 80);
+  //Blynk.begin(auth, ssid, pass, IPAddress(192,168,1,100), 8080);
+
+  // Setup a function to be called every second
+  timer.setInterval(1000L, myTimerEvent);
+  delayMS = sensor.min_delay / 1000;
+}
+
+void loop()
+{
+  Blynk.run();
+  timer.run();
+  // You can inject your own code or combine it with other sketches.
+  // Check other examples on how to communicate with Blynk. Remember
+  // to avoid delay() function!
+}
